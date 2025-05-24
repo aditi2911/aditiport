@@ -74,7 +74,7 @@ export default function SkillsContent() {
       icon: "🔄",
       color: "#FF764D",
     },
-
+    
     {
       name: "Redux",
       level: 80,
