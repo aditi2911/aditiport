@@ -65,13 +65,7 @@ export default function SkillsContent() {
       icon: "🍃",
       color: "#FF1F71",
     },
-    {
-      name: "PostgreSQL",
-      level: 75,
-      category: "Backend",
-      icon: "🐘",
-      color: "#FF1F71",
-    },
+    
     {
       name: "Python",
       level: 80,
