@@ -44,13 +44,7 @@ export default function SkillsContent() {
       icon: "�",
       color: "#00E5FF",
     },
-    {
-      name: "Python",
-      level: 85,
-      category: "Programming Languages",
-      icon: "📘",
-      color: "#00E5FF",
-    },
+    
     {
       name: "TailwindCSS",
       level: 90,
@@ -80,7 +74,7 @@ export default function SkillsContent() {
       icon: "🔄",
       color: "#FF764D",
     },
-    
+
     {
       name: "Redux",
       level: 80,
