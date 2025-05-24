@@ -80,13 +80,7 @@ export default function SkillsContent() {
       icon: "🔄",
       color: "#FF764D",
     },
-    {
-      name: "Docker",
-      level: 70,
-      category: "Tools",
-      icon: "🐳",
-      color: "#FF764D",
-    },
+    
     {
       name: "Redux",
       level: 80,
