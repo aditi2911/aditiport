@@ -117,7 +117,7 @@ const ResumeContent = () => {
     },
     {
       name: "Hands-on Workshop on React",
-      issuer: "Frontend Development",
+      issuer: "ITM University(in collaboration with Coding Thinker)",
       year: "2023",
     },
   ];
