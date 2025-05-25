@@ -94,19 +94,19 @@ const ResumeContent = () => {
       name: "Real-Time Chat Application",
       description:
         "Fully functional real-time chat platform enabling one-on-one messaging using Socket.IO, MERN stack, and JWT-based authentication for secure user registration, login, and session management.",
-      link: "https://github.com/aditi2911/real-time-chat",
+      link: "https://github.com/aditi2911/Chat-Application",
     },
     {
       name: "Doctor Appointment Booking System",
       description:
         "Comprehensive full-stack appointment booking platform for hospitals and clinics with three-tier authentication (Admin, Doctor, Patient) and Stripe payment integration using MERN stack.",
-      link: "https://github.com/aditi2911/appointment-system",
+      link: "https://github.com/aditi2911/Appointment-Booking-System",
     },
     {
       name: "Weather Forecast Web Application",
       description:
         "Responsive weather forecast application providing accurate real-time weather and air quality updates using the OpenWeatherMap API with HTML, CSS, and JavaScript.",
-      link: "https://github.com/aditi2911/weather-forecast",
+      link: "https://github.com/aditi2911/CODETECH-Task-1",
     },
   ];
   const certifications = [
