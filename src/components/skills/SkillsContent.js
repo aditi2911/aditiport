@@ -39,7 +39,7 @@ export default function SkillsContent() {
     },
     {
       name: "C++",
-      level: 85,
+      level: 80,
       category: "Programming Languages",
       icon: "�",
       color: "#00E5FF",
@@ -62,7 +62,7 @@ export default function SkillsContent() {
     
     {
       name: "Python",
-      level: 80,
+      level: 70,
       category: "Programming Languages",
       icon: "🐍",
       color: "#FFD700",
@@ -77,7 +77,7 @@ export default function SkillsContent() {
     
     {
       name: "Redux",
-      level: 80,
+      level: 70,
       category: "Frontend",
       icon: "🔄",
       color: "#00E5FF",
