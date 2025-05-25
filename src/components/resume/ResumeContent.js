@@ -120,6 +120,11 @@ const ResumeContent = () => {
       issuer: "ITM University(in collaboration with Coding Thinker)",
       year: "2023",
     },
+    {
+      name: "Certificate Of Achievement(Frontend Development)",
+      issuer: "oneroadmap",
+      year: "2025",
+    },
   ];
 
   const handleSectionChange = (section) => {
