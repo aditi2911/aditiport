@@ -121,7 +121,7 @@ const Hero = ({ name = "Aditi Rajawat" }) => {
               transition={{ delay: 1, duration: 0.8 }}
             >
               <a
-                href="#projects"
+                href="/projects"
                 className="px-8 py-3.5 bg-gradient-to-r from-[#00E5FF] to-[#00a8cc] text-white font-medium rounded-lg 
                 transition-all duration-300 hover:shadow-lg hover:shadow-[#00E5FF]/30 hover:scale-[1.02] flex items-center gap-2"
               >
@@ -140,7 +140,7 @@ const Hero = ({ name = "Aditi Rajawat" }) => {
                 </svg>
               </a>
 
-              <a
+              <a  
                 href="/contact"
                 className="px-8 py-3.5 bg-transparent border-2 border-[#FF1F71] text-[#FF1F71] font-medium rounded-lg 
                 hover:bg-[#FF1F71]/10 transition-all duration-300 hover:shadow-lg hover:shadow-[#FF1F71]/20 hover:scale-[1.02]"
