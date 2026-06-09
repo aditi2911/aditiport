@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = ({ name = "Aditi Rajawat" }) => {
   const [scrollY, setScrollY] = useState(0);
@@ -120,8 +121,8 @@ const Hero = ({ name = "Aditi Rajawat" }) => {
               animate={{ opacity: 1 }}
               transition={{ delay: 1, duration: 0.8 }}
             >
-              <a
-                href="/projects"
+              <Link
+                href="/projects/"
                 className="px-8 py-3.5 bg-gradient-to-r from-[#00E5FF] to-[#00a8cc] text-white font-medium rounded-lg 
                 transition-all duration-300 hover:shadow-lg hover:shadow-[#00E5FF]/30 hover:scale-[1.02] flex items-center gap-2"
               >
@@ -138,15 +139,15 @@ const Hero = ({ name = "Aditi Rajawat" }) => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
 
-              <a  
-                href="/contact"
-                className="px-8 py-3.5 bg-transparent border-2 border-[#FF1F71] text-[#FF1F71] font-medium rounded-lg 
-                hover:bg-[#FF1F71]/10 transition-all duration-300 hover:shadow-lg hover:shadow-[#FF1F71]/20 hover:scale-[1.02]"
-              >
-                Contact Me
-              </a>
+              <Link
+              href="/contact"
+              className="px-8 py-3.5 bg-transparent border-2 border-[#FF1F71] text-[#FF1F71] font-medium rounded-lg 
+              hover:bg-[#FF1F71]/10 transition-all duration-300 hover:shadow-lg hover:shadow-[#FF1F71]/20 hover:scale-[1.02]"
+            >
+              Contact Me
+            </Link>
             </motion.div>
           </motion.div>
 
