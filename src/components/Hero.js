@@ -168,11 +168,7 @@ const Hero = ({ name = "Aditi Rajawat" }) => {
                 color: "text-blue-400",
                 hover: "hover:text-blue-300",
               },
-              {
-                icon: <FaTwitter />,
-                color: "text-sky-400",
-                hover: "hover:text-sky-300",
-              },
+              
             ].map((social, i) => (
               <a
                 key={i}

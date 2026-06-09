@@ -39,10 +39,9 @@ const ResumeContent = () => {
     setRotate({ x: 0, y: 0 });
   };  const personalInfo = {
     name: "Aditi Rajawat",
-    title: "Frontend Developer",
-    location: "Gwalior, India",
+    title: "Full Stack Developer",
+    location: "Noida, India",
     email: "aditirajawat2911@gmail.com",
-    phone: "+91 9399405583",
     photo: "/assets/image1.jpeg", // Update with your actual photo path
     links: [
       {
@@ -52,7 +51,7 @@ const ResumeContent = () => {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/aditi-rajawat-372814247/",
+        url: "https://www.linkedin.com/in/aditi-rajawat-29a813390",
         icon: "linkedin",
       },
     ],
@@ -66,7 +65,17 @@ const ResumeContent = () => {
       description:
         "Developed a fully responsive weather forecast application using HTML, CSS, and JavaScript, providing accurate real-time weather and air quality updates using the OpenWeatherMap API. Integrated dynamic hourly forecasts and seamless data visualization, enhancing UX and improving page load speed by 20%. Achieved 95% accuracy in data retrieval through optimized API integration and efficient frontend logic.",
       technologies: ["HTML", "CSS", "JavaScript", "API Integration", "Responsive Design"],
+    },
+
+    {
+      company: "GSSoC 2026 & NSoC 2026",
+      position: "Open Source Contributor",
+      period: "April 2026 – Present",
+      description:
+        "Selected contributor for GirlScript Summer of Code (GSSoC) 2026 and Nexus Spring of Code (NSoC) 2026. Merged PR #191 to NutriPlan Lite — implemented loading state for AI coach responses, disabled send button during processing, and prevented duplicate submissions (React.js).Contributed to GEWO Health × Nexus Spring of Code Tech Challenge; active in multiple open-source repositories. GitHub contribution graph reflects consistent daily shipping across personal and community projects",
+      technologies: ["React. js", "State Management", "JavaScript", "UI/UX", "Git PR Workflow", "Responsive Design"],
     }
+
   ];
   const education = [
     {
@@ -80,14 +89,22 @@ const ResumeContent = () => {
     { name: "JavaScript", level: 85 },
     { name: "HTML/CSS", level: 90 },
     { name: "React.js", level: 80 },
+    { name: "JWT", level: 80 },
     { name: "Node.js", level: 75 },
     { name: "Express.js", level: 75 },
     { name: "MongoDB", level: 70 },
+    { name: "PostgreSQL", level: 80 },
+    { name: "MySQL", level: 80 },
     { name: "C++", level: 85 },
     { name: "Python", level: 75 },
     { name: "MySQL", level: 70 },
     { name: "Git/GitHub", level: 80 },
     { name: "REST APIs", level: 75 },
+    { name: "Vercel", level: 80 },
+    { name: "Docker", level: 75 },
+    { name: "CI/CD basics", level: 60 },
+    { name: "Python", level: 75 },
+    { name: "AI Tools[ChatGPT, claude,cursor]", level: 80 },
   ];
   const projects = [
     {
@@ -97,10 +114,16 @@ const ResumeContent = () => {
       link: "https://github.com/aditi2911/Chat-Application",
     },
     {
-      name: "Doctor Appointment Booking System",
+      name: "ShopPulse",
       description:
-        "Comprehensive full-stack appointment booking platform for hospitals and clinics with three-tier authentication (Admin, Doctor, Patient) and Stripe payment integration using MERN stack.",
-      link: "https://github.com/aditi2911/Appointment-Booking-System",
+        "E-commerce analytics pipeline processing 96K+ orders with RFM customer segmentation and cohort analysis. ETL pipeline: raw CSV → PostgreSQL → Pandas transforms → Power BI dashboards. Identified top revenue drivers and churn segments; built for real analytical decision-making.",
+      link: "https://github.com/aditi2911/shoppulse-analytics",
+    },
+    {
+      name: "TalentLens",
+      description:
+        "HR attrition analytics platform with dual-source architecture (PostgreSQL + MongoDB) on IBM 1,470-record dataset. Logistic regression model with 2.9× attrition multiplier finding for overtime employees; ML pipeline end-to-end. Demonstrates full-stack data thinking: schema design → ETL → ML → visualization",
+      link: "https://github.com/aditi2911/talentlens",
     },
     {
       name: "Weather Forecast Web Application",
@@ -111,20 +134,20 @@ const ResumeContent = () => {
   ];
   const certifications = [
     {
-      name: "Hands-on Workshop on React",
-      issuer: "ITM University(in collaboration with Coding Thinker)",
-      year: "2024",
-    },
-    {
-      name: "Certificate for Advancing to Internal Round",
-      issuer: "Smart India Hackathon 2024",
-      year: "2024",
-    },
-    {
-      name: "Certificate Of Achievement(Frontend Development)",
-      issuer: "oneroadmap",
+      name: "Prepared Data for ML APIs",
+      issuer: "Google Cloud",
       year: "2025",
     },
+    {
+      name: "Open Source Contributor",
+      issuer: "▸	GSSoC 2026 & NSoC 2026 ",
+      year: "2026",
+    },
+    {
+      name: "Certified AI Foundations Associate",
+      issuer: "Oracle", 
+      year: "2025",
+    }
   ];
 
   const handleSectionChange = (section) => {
@@ -445,23 +468,7 @@ const ResumeContent = () => {
                     </svg>
                     <span>{personalInfo.email}</span>
                   </div>
-                  <div className="flex items-center text-gray-300">
-                    <svg
-                      className="w-5 h-5 mr-2 text-[#00E5FF]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                      ></path>
-                    </svg>
-                    <span>{personalInfo.phone}</span>
-                  </div>
+                  
                 </div>
 
                 <div className="flex justify-center space-x-4 w-full mb-6">

@@ -26,7 +26,7 @@ const Footer = () => {
         { name: "GitHub", href: "https://github.com/aditi2911" },
         {
           name: "LinkedIn",
-          href: "https://www.linkedin.com/in/aditi-rajawat-372814247/",
+          href: "https://www.linkedin.com/in/aditi-rajawat-29a813390",
         },
       ],
     },
@@ -67,7 +67,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faGithub} size="lg" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/aditi-rajawat-372814247//"
+                  href="https://www.linkedin.com/in/aditi-rajawat-29a813390"
                   className="hover:text-[#00E5FF] transition-colors"
                 >
                   <FontAwesomeIcon icon={faLinkedin} size="lg" />
@@ -105,8 +105,8 @@ const Footer = () => {
             {/* Contact */}
             <div>
               <h3 className="text-[#00E5FF] font-semibold mb-4">Contact</h3>
-              <p className="text-gray-400 mb-4">Gwalior, India</p>
-              <p className="text-gray-400">contact@aditirajawat2911.com</p>
+              <p className="text-gray-400 mb-4">Noida, India</p>
+              <p className="text-gray-400">aditirajawat2911@gmail.com</p>
             </div>
           </div>
 

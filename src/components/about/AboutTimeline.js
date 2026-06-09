@@ -6,11 +6,11 @@ const timeline = [
     year: "2022",
     title: "Started College Journey",
     description:
-      "Began Bachelor of Computer Application (Hons) at Institute of Technology and Management, Gwalior.",
+      "Started BCA (Honours) at ITM University Gwalior. Began Computer Science fundamentals alongside self-teaching HTML, CSS, and JavaScript. Started building small projects from week one.",
   },
   {
     year: "2023",
-    title: "Explored Web Development",
+    title: "Explored WebDevelopment",
     description:
       "Started learning HTML, CSS, and JavaScript. Built foundational web projects and gained experience with responsive design.",
   },
@@ -18,13 +18,7 @@ const timeline = [
     year: "2024",
     title: "Advanced to MERN Stack",
     description:
-      "Built Real-Time Chat Application using Socket.io, React JS, Node.js, Express, and MongoDB. Expanded skills in full-stack development.",
-  },
-  {
-    year: "2024 (May-Jun)",
-    title: "Frontend Developer Internship at CodTech IT Solutions",
-    description:
-      "Developed a responsive weather forecast application with OpenWeatherMap API integration. Improved page load speed by 20% and achieved 95% accuracy in data retrieval.",
+      "Shipped Real-Time Chat App & Weather App. Built a production-grade MERN chat application with Socket.IO, JWT auth, and MongoDB persistence — deployed on Render. Completed a Frontend Developer Internship at CodTech IT Solutions; improved page load speed by 20%",
   },
   {
     year: "2024",
@@ -36,7 +30,13 @@ const timeline = [
     year: "2025",
     title: "Graduation & Beyond",
     description:
-      "Completing BCA (Hons) with CGPA of 8.5/10. Continuing to build advanced web applications and expand technical expertise.",
+      " Graduated + Built Data Analytics Projects. Completed BCA (Hons) with CGPA 8.4. Built ShopPulse (96K+ order analytics pipeline) and TalentLens (HR attrition ML platform) — both end-to-end, from ETL to visualization.",
+  },
+  {
+    year: "2025(July)",
+    title: "Graduation & Beyond",
+    description:
+      "My day job is in HR operations — but my evenings built this portfolio. Every project here was self-initiated, built from scratch, outside work hours. No one asked me to. I just couldn't stop building. MERN stack, data pipelines, ML models, open-source contributions — all of it runs parallel to a non-technical job title, because I refused to wait for the right title before doing the real work. I'm now looking for an engineering role where I can do this full-time. I'm not breaking into tech — I'm already here.",
   },
 ];
 

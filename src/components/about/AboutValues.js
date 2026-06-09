@@ -21,37 +21,32 @@ export default function AboutValues() {
     <section className="w-full bg-[#001328] text-white px-6 md:px-16 py-24 flex flex-col md:flex-row items-center justify-between gap-12">
       <div className="w-full md:w-1/2">
         <div className="mb-4 text-teal-300 uppercase tracking-wide font-semibold">
-          My Values
+          what I bring
         </div>
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
-          The three C&apos;s of craftery
+          Built outside a job title.
         </h2>
-        <div className="space-y-8 text-lg text-gray-300">
-          <div className="bg-[#062243] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-            <h4 className="text-xl font-semibold text-white mb-2">Chemistry</h4>
-            <p>
-              Be it between people, products, or experiences; our way of life is
-              sparked by the catalytic connections that make up our
-              collaborative atmosphere.
-            </p>
-          </div>
-          <div className="bg-[#062243] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-            <h4 className="text-xl font-semibold text-white mb-2">Curiosity</h4>
-            <p>
-              We thrive in the freedom of our open-mindedness. We inspire,
-              support, and learn from one another.
-            </p>
-          </div>
-          <div className="bg-[#062243] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-            <h4 className="text-xl font-semibold text-white mb-2">
-              Creative turbulence
-            </h4>
-            <p>
-              Our approach is that of hungry inventors, propelled by our shared
-              instinct to break boundaries and shake things up.
-            </p>
-          </div>
-        </div>
+        <div className="bg-[#062243] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+  <h4 className="text-xl font-semibold text-white mb-2">End-to-End Builder</h4>
+  <p>
+    Frontend, backend, database, deployment — I don&apos;t stop at the part
+    I&apos;m comfortable with. Every project here is fully built and shipped by me.
+  </p>
+</div>
+<div className="bg-[#062243] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+  <h4 className="text-xl font-semibold text-white mb-2">Fast Learner by Default</h4>
+  <p>
+    Most of my stack is self-taught, which means I know how to pick up something
+    new under pressure. I don&apos;t wait to be taught — I figure it out and ship.
+  </p>
+</div>
+<div className="bg-[#062243] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+  <h4 className="text-xl font-semibold text-white mb-2">AI Tools as a Multiplier</h4>
+  <p>
+    I use Claude and Cursor daily — not as a crutch, but to move faster.
+    I still understand every line I ship and own every decision I make.
+  </p>
+</div>
         <a
           href="/contact"
           className="inline-flex mt-10 items-center text-[#6fffdb] border-b-2 border-[#6fffdb] hover:text-white hover:border-white transition-all"

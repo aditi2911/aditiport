@@ -8,9 +8,9 @@ export default function HeroSection() {
           About Me
         </h1>
         <p className="text-slate-900 text-lg md:text-xl leading-relaxed">
-          My journey in tech started with a curiosity for web development, which
-          evolved into a passion for creating responsive and user-friendly applications
-          that solve real-world problems.
+          I'm an HR associate transitioning full-time into software engineering, with a self-built portfolio spanning MERN stack applications, data analytics pipelines, and open-source contributions. I didn't wait for a technical job title to start building — every project here was built from scratch, outside of work hours, because I genuinely enjoy the craft. I'm currently looking for a team where I can contribute real code from day one and grow fast.
+
+
         </p>
       </div>
 

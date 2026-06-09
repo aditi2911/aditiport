@@ -27,19 +27,17 @@ export const projects = [
     ],
   },
   {
-    id: "appointment-system",
-    title: "Doctor Appointment Booking System",
+    id: "shoppulse",
+    title: "ShopPulse",
     description:
-      "A comprehensive full-stack appointment booking platform for hospitals and clinics with three-tier authentication (Admin, Doctor, Patient). Integrated secure online payments with Stripe.",
-    image: "/projects/doctor-appointment.jpg",
-    tags: ["React.js", "Express.js", "Node.js", "MongoDB", "JWT", "Stripe"],
-    github: "https://github.com/aditi2911/appointment-system",
+      "▸	E-commerce analytics pipeline processing 96K+ orders with RFM customer segmentation and cohort analysis",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+    tags: ["Python", "PostgreSQL", "Pandas", "Power BI", "RFM Analysis"],
+    github: "https://github.com/aditi2911/shoppulse-analytics",
     details: [
-      "Engineered a comprehensive full-stack appointment booking platform with three-tier authentication",
-      "Improved booking efficiency by 50% and user retention by 30% by streamlining appointment flow",
-      "Integrated secure online payments with Stripe",
-      "Designed RESTful APIs, reducing response time by 20% and ensuring secure backend communication",
-      "Implemented role-based access control for administrators, doctors, and patients",
+      "E-commerce analytics pipeline processing 96K+ orders with RFM customer segmentation and cohort analysis",
+      "ETL pipeline: raw CSV → PostgreSQL → Pandas transforms → Power BI dashboards",
+      "Identified top revenue drivers and churn segments; built for real analytical decision-making"
     ],
   },
   {

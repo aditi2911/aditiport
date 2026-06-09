@@ -2,23 +2,23 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 
 // Import the projects data
 import { projects } from "../../../components/project/Project";
 
 export default function ProjectDetail({ params }) {
+  const { id } = use(params);
   const [project, setProject] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Find the project with the matching ID
-    const foundProject = projects.find((p) => p.id === params.id);
+    const foundProject = projects.find((p) => p.id === id);
     if (foundProject) {
       setProject(foundProject);
     }
     setLoading(false);
-  }, [params.id]);
+  }, [id]);
 
   if (loading) {
     return (

@@ -14,16 +14,16 @@ export default function HobbiesSection() {
   const slides = useMemo(
     () => [
       {
+        image: "webdesign.jpg",
+        title: "outside of coding",
+        description:
+          "Outside of coding I follow open-source communities, read about system design, and occasionally break my own projects just to fix them better. I find that the best debugging sessions happen when I'm genuinely curious about why something broke",
+      },
+      {
         image: "codingchallenge.jpg",
         title: "Coding Challenges",
         description:
           "I enjoy solving competitive programming problems and algorithmic challenges to sharpen my skills.",
-      },
-      {
-        image: "webdesign.jpg",
-        title: "Web Design",
-        description:
-          "Creating intuitive and responsive interfaces is both my passion and profession.",
       },
       {
         image: "reading.jpg",
